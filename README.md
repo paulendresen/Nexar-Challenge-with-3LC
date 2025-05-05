@@ -1,4 +1,4 @@
-# Nexar Challenge Pipeline
+# Nexar Dashcam Kaggle Challenge
 
 This repository contains a full pipeline for video-based event prediction training mvit_v2_s and the 3LC framework. Below is an overview of the workflow and a description of each main file.
 
