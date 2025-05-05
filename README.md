@@ -38,10 +38,10 @@ Contains the core training loop, model checkpointing, and metric calculation log
 Utility functions and classes used throughout the pipeline, such as data transformations, frame loading, and mapping functions for 3LC tables.
 
 ### 6. `inference.py`
-Runs inference on a dataset (training, validation or test) using a trained model. Captures embeddings, predictions, and metrics, and can be used to debug and analyze dataset and model performance. This information is used to understand how the model learns from the training data and actions are taken in the UI accordingly, in this case to delete and weight data.This is used iteratively to improve the dataset and model.
+Runs inference on a dataset (training, validation or test) using a trained model. Captures embeddings, predictions, and metrics, and can be used to debug and analyze dataset and model performance. This information is used to understand how the model learns from the training data and actions are taken in the UI accordingly, in this case to delete and weight data.This is used iteratively to improve the dataset and model. When final training is done, change this script to run inference on the test set.
 
 ### 7. `submissionFromRun.py`
-After the best training dataset is created and training is run and best model is selected based on validation dataset, this script runs inference on the test set and generates a `submission.csv` file in the required format for competition submission.
+This script takes a 3LC test inference run and generates a `submission.csv` file in the required format for competition submission.
 
 ---
 
