@@ -2,7 +2,7 @@
 
 This repository contains a full pipeline for video-based event prediction training mvit_v2_s and the 3LC framework. Below is an overview of the workflow and a description of each main file.
 
-This solution requires 3LC to be pip installed, and the 3LC service running for being able to use the UI to inspect training runs (and edit training data)
+This solution requires 3LC to be pip installed, see requirements.txt, and the 3LC service running for being able to use the UI to inspect training runs (and edit training data)
 
 For more information, see https://docs.3lc.ai/
 
