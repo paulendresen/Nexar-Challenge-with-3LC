@@ -6,6 +6,8 @@ This solution requires 3LC to be pip installed, see requirements.txt, and the 3L
 
 For more information, see https://docs.3lc.ai/
 
+This model was trained on a Lambdalabs node: 1x A100 (40 GB SXM4) 30 vCPUs, 200 GiB RAM, 0.5 TiB SSD
+
 ## Workflow Overview
 
 1. **Preprocess Videos**: Extract frames from raw videos for training, validation, and testing.
