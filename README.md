@@ -4,7 +4,9 @@ This repository contains a full pipeline for video-based event prediction traini
 
 This solution requires 3LC to be pip installed, see requirements.txt, and the 3LC service running for being able to use the UI to inspect training runs (and edit training data)
 
-For more information, see https://docs.3lc.ai/
+For more information, see https://docs.3lc.ai/ - free for personal use and research
+
+Data can be downloaded from here: https://www.kaggle.com/competitions/nexar-collision-prediction/data
 
 This model was trained on a Lambdalabs node: 1x A100 (40 GB SXM4) 30 vCPUs, 200 GiB RAM, 0.5 TiB SSD
 
