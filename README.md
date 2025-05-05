@@ -16,7 +16,7 @@ For more information, see https://docs.3lc.ai/
 
 ---
 
-## File Descriptions
+## File Descriptions for files in src
 
 ### 1. `preprocess_videos.py`
 Extracts frames from raw video files and organizes them into directories for training, validation, and testing. This is the first step in the pipeline.
