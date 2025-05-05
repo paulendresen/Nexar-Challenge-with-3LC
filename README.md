@@ -42,7 +42,7 @@ After the best training dataset is created and training is run and best model is
 ---
 
 ## Additional Notes
-- Checkpoints and intermediate results are stored in the `checkpoints_newmodel/` and `checkpoints/` directories.
+- Checkpoints and intermediate results are stored in the `checkpoints_newmodel/`
 - The `src/` directory contains all main scripts; utility and helper files are also located here.
 - The pipeline is designed for iterative improvement: you can repeat the data preparation, training, and inference steps as needed.
 
