@@ -18,7 +18,7 @@ def load_model(model_path):
     """Load the trained model"""
     model = NewCrashPredictor()
     checkpoint = torch.load(model_path)
-    model.load_state_dict(checkpoint['model_state_dict'])
+    model.load_state_dict(checkpoint['model_state_dict'], strict=False)
     return model
 
 def get_embeddings(model, dataloader, device):
